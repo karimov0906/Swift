@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>Just Trust Me</string>
+		<key>Artist</key>
+		<string>Craig D&apos;Andrea</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=4eDzjbf6-4Y&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>These Moments - solo guitar</string>
+		<key>Artist</key>
+		<string>Antoine Dufour</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=YQlyHbu0zz4&amp;feature=relmfu</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Cannonball</string>
+		<key>Artist</key>
+		<string>Brooke Miller</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=NZGkGTf50Jg&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>Bidh Clann Ullaidh (The Clan of Ulster)</string>
+		<key>Artist</key>
+		<string>Tony McManus</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=CM37aJe3vqo&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>Top Ten Acoustic Songs</string>
+		<key>Artist</key>
+		<string>Oasis</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=wLfup6jaXEA</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

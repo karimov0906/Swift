@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>Whitney Houston - Saving All My Love (Nottingham 2010)</string>
+		<key>Artist</key>
+		<string>Whitney Houston</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=u3PYvx5OuJU</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>Trust In Me - Complet (HD)</string>
+		<key>Artist</key>
+		<string>Selena Gomez</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=5v5Iulg5cVc&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Miley Reveals Her Secret</string>
+		<key>Artist</key>
+		<string>Hannah Montana Miley</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=VEMRVzy0qRs</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>&quot;Baby&quot; Live! 2010</string>
+		<key>Artist</key>
+		<string>Justin Bieber</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=tMryQlJtZRk</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>Who Owns My Heart</string>
+		<key>Artist</key>
+		<string>Miley Cyrus</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=PZN40dYRgxM&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

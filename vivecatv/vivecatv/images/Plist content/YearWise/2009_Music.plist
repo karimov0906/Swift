@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>Naturally (Live @ Teleton Mexico 2009)</string>
+		<key>Artist</key>
+		<string>Selena Gomez</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=ZxuPAh-_YG4</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>Who Says</string>
+		<key>Artist</key>
+		<string>Selena Gomez</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=BzE1mX4Px0I</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Butterfly</string>
+		<key>Artist</key>
+		<string>Hannah Montana Miley</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=hBC2goRldSo</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>Don&apos;t Look Back In Anger - Live in Seoul, Korea 2009</string>
+		<key>Artist</key>
+		<string>Oasis</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=5q6AblNi6sg</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>Oscars 2009 Miley Cyrus</string>
+		<key>Artist</key>
+		<string>Miley Cyrus</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=eqEYQhqL3SA</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

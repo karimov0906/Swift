@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>From France to India - Solo Acoustic Guitar</string>
+		<key>Artist</key>
+		<string>Don Ross</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=TUj0cFczB_8&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>Time 2 - Guitar - www.candyrat.com</string>
+		<key>Artist</key>
+		<string>Ewan Dobson</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=eXqPYte8tvc&amp;feature=relmfu</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Adrenaline Rush - Solo Acoustic Guitar</string>
+		<key>Artist</key>
+		<string>Gareth Pearson</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=e4L6Iz7VQt8&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>Guitar - Drifting - www.candyrat.com</string>
+		<key>Artist</key>
+		<string>Andy McKee</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=Ddn4MGaS3N4&amp;feature=relmfu</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>A Lily in may - Live in Hugh´s room - Toronto</string>
+		<key>Artist</key>
+		<string>Jimmy Wahlsteen</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=ADVCm_Sg9i0</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

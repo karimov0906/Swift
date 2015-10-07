@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>New Song - FIRE - (Exclusive)</string>
+		<key>Artist</key>
+		<string>Shakira</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=mQ8TainGioc&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>Circus ( Live on GMA Dec 2008 ) HD</string>
+		<key>Artist</key>
+		<string>Britney Spears</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=F8vXsn-V-lk</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Just Dance (2008 The Ellen Show)</string>
+		<key>Artist</key>
+		<string>Lady Gaga</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=jNPCV1pFF7s</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>What You Got (New 2008)</string>
+		<key>Artist</key>
+		<string>Colby O&apos;Donis</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=qrNmwyhnCEc</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>I Wanna Love You ft. Snoop Dogg</string>
+		<key>Artist</key>
+		<string>Akon</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=GJzF7H2e3Tw&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

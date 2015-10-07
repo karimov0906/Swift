@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37080E33-2FBA-4D9C-9A96-6E108FB72FC9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TrendingContent</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A6378180E377D6ED2AC6B139390CB3641286AEA2</key>
+		<string>https://bitbucket.org/vivecamedia/trendingcontent-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TrendingContent/TrendingContent.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A6378180E377D6ED2AC6B139390CB3641286AEA2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/vivecamedia/trendingcontent-swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A6378180E377D6ED2AC6B139390CB3641286AEA2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A6378180E377D6ED2AC6B139390CB3641286AEA2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>trendingcontent-swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

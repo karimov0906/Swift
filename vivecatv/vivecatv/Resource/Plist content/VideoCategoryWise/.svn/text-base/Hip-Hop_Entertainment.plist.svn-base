@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>Baby Waka Waka - Bimbo (even Shakira can&apos;t dance like this.) MUST WATCH!</string>
+		<key>Artist</key>
+		<string>Shakira</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=T2HJkrKOLCs</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>Selena Gomez Fly To Your Heart FULL Music Video</string>
+		<key>Artist</key>
+		<string>Axeling Music</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=2ViGx1iHtkQ</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Akon Ft. Rick Ross - Give it to Em - HD - Guerilla Music Entertainment</string>
+		<key>Artist</key>
+		<string>Akon</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=dbPaOPtXWB0</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>Song To Make You Smile</string>
+		<key>Artist</key>
+		<string>Justine Clarke</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=0eSnSANYQXw&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>You Make Me Feel Like Dancing</string>
+		<key>Artist</key>
+		<string>The Wiggles</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=607GBvz0ShA&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

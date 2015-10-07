@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>Live 2009</string>
+		<key>Artist</key>
+		<string>HADOUKEN</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=rBwkHDwu9BQ</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>She Wolf</string>
+		<key>Artist</key>
+		<string>Shakira</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=booKP974B0k</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Just Dance Live Dancing With The Stars 2009</string>
+		<key>Artist</key>
+		<string>Lady Gaga</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=AcvAEBUa_Ok</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>What is Love ? ( LYRICS ) new 2009</string>
+		<key>Artist</key>
+		<string>Jennifer Lopez</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=_ONmJbTJqzc&amp;feature=fvst</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>If U Seek Amy</string>
+		<key>Artist</key>
+		<string>Britney Spears</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=uelHwf8o7_U&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

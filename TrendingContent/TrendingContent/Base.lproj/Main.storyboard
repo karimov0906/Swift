@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Ludwig Type - Helsinki.otf">
+            <string>Helsinki-Regular</string>
+            <string>Helsinki-Regular</string>
+            <string>Helsinki-Regular</string>
+            <string>Helsinki-Regular</string>
+            <string>Helsinki-Regular</string>
+            <string>Helsinki-Regular</string>
+            <string>Helsinki-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="9Cg-jH-nor">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" id="Keg-a5-5Fo">
+                                        <rect key="frame" x="10" y="10" width="160" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1jI-fg-qpq">
+                                        <rect key="frame" x="270" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                        <state key="normal" image="search">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="searchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LB2-UR-4hc"/>
+                                        </connections>
+                                    </button>
+                                    <searchBar contentMode="redraw" id="Ect-Zr-Hs7">
+                                        <rect key="frame" x="0.0" y="3" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
+                                        <scopeButtonTitles>
+                                            <string>Title</string>
+                                            <string>Title</string>
+                                        </scopeButtonTitles>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="fjx-SS-xQ0"/>
+                                        </connections>
+                                    </searchBar>
+                                </subviews>
+                                <color key="backgroundColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="searchBar" destination="Ect-Zr-Hs7" id="ySM-Ax-taz"/>
+                        <outlet property="searchBtn" destination="1jI-fg-qpq" id="RJA-PN-ITX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="312"/>
+        </scene>
+        <!--StoriesVC-->
+        <scene sceneID="g1W-qb-Lwl">
+            <objects>
+                <tableViewController storyboardIdentifier="StoriesVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UMs-sb-fxn" customClass="StoriesVC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="320" sectionHeaderHeight="22" sectionFooterHeight="22" id="BJj-7N-oTs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoriesCell" rowHeight="320" id="kOJ-zl-4eC" customClass="StoriesCell" customModule="TrendingContent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="22" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kOJ-zl-4eC" id="T1x-6H-fpN">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="319"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="UBf-A5-FpT">
+                                            <rect key="frame" x="0.0" y="10" width="320" height="240"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fzm-jw-aFa">
+                                            <rect key="frame" x="10" y="260" width="300" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <fontDescription key="fontDescription" name="Helsinki-Regular" family="Helsinki" pointSize="15"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="articleImageview" destination="UBf-A5-FpT" id="up7-YG-gXR"/>
+                                    <outlet property="titleLabel" destination="fzm-jw-aFa" id="duI-49-IOI"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="UMs-sb-fxn" id="8NF-aj-kFo"/>
+                            <outlet property="delegate" destination="UMs-sb-fxn" id="WS5-5E-YUi"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R2q-DK-0FU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="546" y="312"/>
+        </scene>
+        <!--TwitterVC-->
+        <scene sceneID="1Qx-S4-W1v">
+            <objects>
+                <tableViewController storyboardIdentifier="TwitterVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k3j-xx-VpP" customClass="TwitterVC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zo3-ty-CmH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TwitterCell" textLabel="ZxO-sZ-Civ" style="IBUITableViewCellStyleDefault" id="4j4-1f-JXw">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4j4-1f-JXw" id="CTn-yp-Lmh">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZxO-sZ-Civ">
+                                            <rect key="frame" x="15" y="0.0" width="290" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="Helsinki-Regular" family="Helsinki" pointSize="19"/>
+                                            <color key="textColor" red="0.0" green="0.88235294119999996" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="k3j-xx-VpP" id="0Ry-pU-D1F"/>
+                            <outlet property="delegate" destination="k3j-xx-VpP" id="ZuD-dl-R7u"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oVr-wM-jcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="915" y="312"/>
+        </scene>
+        <!--YoutubeVC-->
+        <scene sceneID="CCa-cB-HDw">
+            <objects>
+                <tableViewController storyboardIdentifier="YoutubeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bjv-fz-l6z" customClass="YoutubeVC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="230" sectionHeaderHeight="22" sectionFooterHeight="22" id="yLO-wf-9NT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="WebViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="YoutubeCell" rowHeight="230" id="bkI-3R-xqP" customClass="WebViewCell" customModule="TrendingContent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="22" width="320" height="230"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bkI-3R-xqP" id="UZb-bS-UsK">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="229"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <webView contentMode="scaleToFill" scalesPageToFit="YES" id="a8D-fg-546">
+                                            <rect key="frame" x="0.0" y="15" width="320" height="200"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <dataDetectorType key="dataDetectorTypes"/>
+                                        </webView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="webView" destination="a8D-fg-546" id="hxs-9d-AZz"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Bjv-fz-l6z" id="JBv-2L-6sv"/>
+                            <outlet property="delegate" destination="Bjv-fz-l6z" id="VMX-Nb-asZ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J6L-ce-PTF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1258" y="312"/>
+        </scene>
+        <!--SocialVC-->
+        <scene sceneID="CoY-4R-3GI">
+            <objects>
+                <tableViewController storyboardIdentifier="SocialVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wri-Kk-Kii" customClass="SocialVC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="500" sectionHeaderHeight="22" sectionFooterHeight="22" id="usX-R5-cqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="WebViewCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="SocialCell" rowHeight="500" id="anc-jn-gv6" customClass="WebViewCell" customModule="TrendingContent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="22" width="320" height="500"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="anc-jn-gv6" id="iRd-6C-1Ow">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <webView contentMode="scaleToFill" id="dBf-9c-pze">
+                                            <rect key="frame" x="0.0" y="10" width="320" height="480"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <dataDetectorType key="dataDetectorTypes"/>
+                                        </webView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="webView" destination="dBf-9c-pze" id="eao-YS-kxt"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Wri-Kk-Kii" id="vqU-7A-6OJ"/>
+                            <outlet property="delegate" destination="Wri-Kk-Kii" id="3k7-Uv-pqy"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZK-bf-4rf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1597" y="312"/>
+        </scene>
+        <!--Top3VC-->
+        <scene sceneID="gvf-wm-JAn">
+            <objects>
+                <tableViewController storyboardIdentifier="Top3VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="15c-nr-eb9" customClass="Top3VC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="22" sectionFooterHeight="22" id="fVv-pU-4wa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="Top3Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Top3Cell" rowHeight="145" id="8Ln-gZ-Dwk" customClass="Top3Cell" customModule="TrendingContent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="22" width="320" height="145"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Ln-gZ-Dwk" id="D1d-aw-pfD">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" id="VhL-AM-bNN">
+                                            <rect key="frame" x="10" y="10" width="300" height="125"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RFC-Xx-ICH">
+                                                    <rect key="frame" x="0.0" y="0.0" width="167" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="Helsinki-Regular" family="Helsinki" pointSize="65"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="YB0-XJ-nOn">
+                                                    <rect key="frame" x="175" y="0.0" width="125" height="125"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES"/>
+                                                </imageView>
+                                                <view alpha="0.85000002384185791" contentMode="scaleToFill" id="oUM-Dq-KjF">
+                                                    <rect key="frame" x="0.0" y="66" width="174" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tJN-QG-e0z">
+                                                            <rect key="frame" x="5" y="7" width="158" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            <fontDescription key="fontDescription" name="Helsinki-Regular" family="Helsinki" pointSize="14"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="q8Z-DN-H1q">
+                                                            <rect key="frame" x="5" y="32" width="158" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            <fontDescription key="fontDescription" name="Helsinki-Regular" family="Helsinki" pointSize="14"/>
+                                                            <color key="textColor" red="0.0" green="0.88235294119999996" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="artistLabel" destination="q8Z-DN-H1q" id="er2-5h-BDI"/>
+                                    <outlet property="artworkImageview" destination="YB0-XJ-nOn" id="cup-K7-LqT"/>
+                                    <outlet property="posLabel" destination="RFC-Xx-ICH" id="n5c-cL-eDb"/>
+                                    <outlet property="titleLabel" destination="tJN-QG-e0z" id="8Un-rI-qSt"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="15c-nr-eb9" id="EaJ-hv-JGp"/>
+                            <outlet property="delegate" destination="15c-nr-eb9" id="B7Y-UQ-Ovk"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="segmentControl" destination="W2D-dt-vKV" id="5a3-2b-Qpm"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LLS-my-uE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="W2D-dt-vKV">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <segments>
+                        <segment title="Song"/>
+                        <segment title="Movie"/>
+                        <segment title="TV"/>
+                        <segment title="Apps"/>
+                        <segment title="Books"/>
+                    </segments>
+                    <color key="tintColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="changeSegmentValue:" destination="15c-nr-eb9" eventType="valueChanged" id="I3D-yM-MIP"/>
+                    </connections>
+                </segmentedControl>
+            </objects>
+            <point key="canvasLocation" x="546" y="1014"/>
+        </scene>
+        <!--CoverVC-->
+        <scene sceneID="5dg-R2-n3i">
+            <objects>
+                <collectionViewController storyboardIdentifier="CoverVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nwk-7Q-iTO" customClass="CoverVC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="YEH-gN-BVt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zaD-Sk-lln">
+                            <size key="itemSize" width="150" height="153"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CoverCell" reuseIdentifier="CoverCell" id="VO5-G8-5kN" customClass="CoverCell" customModule="TrendingContent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="153"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="hKk-mo-4CB">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="154"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OSs-pB-l4R">
+                                            <rect key="frame" x="8" y="8" width="134" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Helsinki-Regular" family="Helsinki" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9l2-kO-rgK">
+                                            <rect key="frame" x="8" y="121" width="134" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                            <fontDescription key="fontDescription" name="Helsinki-Regular" family="Helsinki" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="0.0" green="0.88235294119999996" blue="0.094117647060000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="artworkImageview" destination="hKk-mo-4CB" id="fbi-Os-IK5"/>
+                                    <outlet property="sectionLabel" destination="OSs-pB-l4R" id="Vxj-Eu-T0g"/>
+                                    <outlet property="titleLabel" destination="9l2-kO-rgK" id="vl4-hp-LG9"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="nwk-7Q-iTO" id="qEi-51-x8c"/>
+                            <outlet property="delegate" destination="nwk-7Q-iTO" id="UbP-eT-Kmp"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8BC-92-iZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="1014"/>
+        </scene>
+        <!--Data Source-->
+        <scene sceneID="wUj-eD-usg">
+            <objects>
+                <viewController storyboardIdentifier="CoverFlowVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yaH-w7-yLZ" customClass="CoverFlowVC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fu7-Io-dvy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" restorationIdentifier="iCarousel" id="aMv-2g-vzn" customClass="iCarousel">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="yaH-w7-yLZ" id="KF8-Fh-udd"/>
+                                    <outlet property="delegate" destination="yaH-w7-yLZ" id="28P-9M-Ch5"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="carousel" destination="aMv-2g-vzn" id="6uj-TR-wVB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0IE-qj-8uP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289" y="1005"/>
+        </scene>
+        <!--WebVC-->
+        <scene sceneID="D61-M9-Hak">
+            <objects>
+                <viewController storyboardIdentifier="WebVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1os-ap-MFH" customClass="WebVC" customModule="TrendingContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kxq-Vh-gIu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="H3e-MJ-jQZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="525"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="ID9-c6-7tw">
+                                <rect key="frame" x="150" y="268" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="kdn-jM-Dw9">
+                                <rect key="frame" x="0.0" y="525" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="3cq-8t-nWs">
+                                        <connections>
+                                            <action selector="stop:" destination="1os-ap-MFH" id="xR0-gl-rJu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Hu4-kW-YR1"/>
+                                    <barButtonItem systemItem="refresh" id="GOf-Mh-Dg7">
+                                        <connections>
+                                            <action selector="doRefresh:" destination="1os-ap-MFH" id="2km-uy-KZW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="KzB-WP-nH1"/>
+                                    <barButtonItem systemItem="rewind" id="5Zj-HS-vux">
+                                        <connections>
+                                            <action selector="goBack:" destination="1os-ap-MFH" id="xov-28-qLL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="e0X-5f-LTL"/>
+                                    <barButtonItem systemItem="fastForward" id="8Py-bx-3vJ">
+                                        <connections>
+                                            <action selector="goForward:" destination="1os-ap-MFH" id="vwu-k7-g8b"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="wGS-VL-CmX">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="HdM-UG-N3D">
+                            <connections>
+                                <action selector="cancel:" destination="1os-ap-MFH" id="EPQ-rk-j7T"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="ID9-c6-7tw" id="HXc-Si-kms"/>
+                        <outlet property="btnBackward" destination="5Zj-HS-vux" id="H7z-uA-24d"/>
+                        <outlet property="btnForward" destination="8Py-bx-3vJ" id="coC-A1-U3V"/>
+                        <outlet property="webView" destination="H3e-MJ-jQZ" id="hze-zb-zSJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bqc-vH-AyT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2206" y="1014"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ciE-Ok-KDK">
+            <objects>
+                <navigationController storyboardIdentifier="WebNavVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f6S-Xq-gIx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c50-BL-goo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1os-ap-MFH" kind="relationship" relationship="rootViewController" id="kmu-pd-wfc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O6Z-OY-Rk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="1014"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="329" height="26"/>
+        <image name="search" width="32" height="32"/>
+    </resources>
+</document>

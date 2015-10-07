@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>Shakira Latin Grammy Awards 2012 Live Song Katy Perry The One That Got Away Loca Music Video </string>
+		<key>Artist</key>
+		<string>Shakira</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=jUkzICwGBug&amp;feature=fvsr</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>Turning Tables, Set Fire To The Rain, Rolling In The Deep, Someone Like You</string>
+		<key>Artist</key>
+		<string>ADELE</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=YhXs8J-CQqQ&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>We Found Love (Grammy Nominations 2012)</string>
+		<key>Artist</key>
+		<string>Rihanna</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=gTJevcR5y6A&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>LADY GAGA ROCKIN NEW YORK YEAR TO 2012 TIMES SQUARE</string>
+		<key>Artist</key>
+		<string>LADY GAGA</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=t4H_Zoh7G5A&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>Selena Gomez Ft Justin Bieber- Falling DownSuperBass Rap Chicago (2012</string>
+		<key>Artist</key>
+		<string>Selena Gomez Ft Justin Bieber</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=uelHwf8o7_U&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>

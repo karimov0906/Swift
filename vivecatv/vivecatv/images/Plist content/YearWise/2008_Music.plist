@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>Title</key>
+		<string>My Love Is Your Love - Live 2008</string>
+		<key>Artist</key>
+		<string>Whitney Houston</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=uiJI7poTCYg</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>Title</key>
+		<string>TELL ME SOMETHING Music Video</string>
+		<key>Artist</key>
+		<string>Selena Gomez</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=UIZqpkPL5jY</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>Title</key>
+		<string>Hannah Montana- I&apos;ll always remember you ( russian version)</string>
+		<key>Artist</key>
+		<string>Miley Cyrus</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=UPOzHYJthQU&amp;feature=related</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>Title</key>
+		<string>Mistletoe</string>
+		<key>Artist</key>
+		<string>Justin Bieber</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=LUjn3RpkcKY</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>Title</key>
+		<string>Guzarish - Ghajini (2008) ft. Aamir Khan, Asin</string>
+		<key>Artist</key>
+		<string>AR Rahman</string>
+		<key>link</key>
+		<string>http://www.youtube.com/watch?v=DYipQBFkWDQ</string>
+		<key>TwitterAccountName</key>
+		<string>selenagomzie</string>
+	</dict>
+</dict>
+</plist>
